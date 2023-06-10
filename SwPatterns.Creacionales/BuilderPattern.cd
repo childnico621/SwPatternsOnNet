@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SwPatterns.Creacionales.Builder.Constructor.OtherCharacterBuilder">
+    <Position X="3.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAABAAAAAAEgAAAAAAAQABAAAA=</HashCode>
+      <FileName>Constructor\OtherCharacterBuilder.cs</FileName>
+      <NewMemberFileName>Constructor\CharacterBuilder.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.1" />
+  </Class>
+  <Class Name="SwPatterns.Creacionales.Builder.Director.CharacterDirector">
+    <Position X="8" Y="2.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAIAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Director\CharacterDirector.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SwPatterns.Creacionales.Builder.Models.Character">
+    <Position X="3.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAEAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SwPatterns.Creacionales.Builder.Client">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SwPatterns.Creacionales.Builder.Intefaces.ICharacterBuilder">
+    <Position X="1" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAEgAAAAAAAQABAAAA=</HashCode>
+      <FileName>Intefaces\ICharacterBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
