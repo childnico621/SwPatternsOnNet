@@ -42,12 +42,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
         shell: powershell
         run: |
-          Write-Host "Current Path:" (Get-Location)
-          if (Test-Path "D:\a\SwPatternsOnNet\SwPatternsOnNet\.sonarqube") {
-            Write-Host "The path D:\a\SwPatternsOnNet\SwPatternsOnNet\.sonarqube exists."
-          } else {
-            Write-Host "The path D:\a\SwPatternsOnNet\SwPatternsOnNet\.sonarqube does not exist."
-          }
+          Write-Host "Current Path Content:" (dir)
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"childnico621_SwPatternsOnNet_AY-8YRPbNVmY0udHXxkw" /d:sonar.login="${{ secrets.SONAR_TOKEN }}" /d:sonar.host.url="${{ secrets.SONAR_HOST_URL }}"
           dotnet build
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
